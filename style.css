@@ -156,7 +156,7 @@ nav ul li a:hover {
     border: none;
     cursor: pointer;
     font-size: 20px;
-    color: white; /* White color for better visibility */
+    color: white; 
     transition: 0.3s;
     display: flex;
     align-items: center;
@@ -165,7 +165,21 @@ nav ul li a:hover {
 }
 
 #dark-mode-toggle:hover {
-    color: #f39c12; /* Highlight effect */
+    color: #f39c12; 
+}
+
+.contact-links a {
+    color: #222;
+    text-decoration: none;
+    transition: 0.3s; 
+}
+
+.dark-mode .contact-links a {
+    color: #f4f4f4; 
+}
+
+.dark-mode .contact-links a:hover {
+    color: #f39c12;
 }
 
 
