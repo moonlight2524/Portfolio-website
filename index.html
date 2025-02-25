@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeevitha Divakar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Jeevitha Divakar</h1>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <div class="nav-container">
+            <nav>
+                <ul id="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <button id="dark-mode-toggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="hidden">
+        <h2>About Me</h2><br><br>
+        <div class="about-container">
+            <img src="pic.jpg" alt="Jeevitha Divakar" class="profile-pic">
+            <p>Hello! I'm Jeevitha Divakar, an engineering student passionate about technology, problem-solving, and web
+                development. I have a keen interest in building interactive and user-friendly web applications. With a
+                solid
+                foundation in HTML and CSS, I am now diving into JavaScript to enhance my ability to create dynamic and
+                responsive websites.
+
+                Beyond web development, I am also exploring artificial intelligence, application development, and data
+                structures & algorithms to strengthen my problem-solving skills. I enjoy working on projects that
+                challenge
+                me and help me grow as a developer. My goal is to continuously learn, experiment with new technologies,
+                and
+                eventually contribute to real-world applications that make a difference.
+
+                If you're interested in technology, development, or simply connecting, feel free to reach out. Let's
+                learn,
+                build, and innovate together!</p>
+        </div>
+    </section>
+
+    <section id="projects" class="hidden">
+        <h2>Projects</h2><br>
+        <div class="project">
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive and interactive portfolio website showcasing my skills, projects, and achievements. Built
+                with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="project">
+            <h3>E-commerce Website (Upcoming)</h3>
+            <p>A full-stack e-commerce platform featuring product listings, user authentication, and secure payment
+                integration. Built with React, Node.js, and MongoDB.</p>
+        </div>
+        <div class="project">
+            <h3>Blog Platform (Upcoming)</h3>
+            <p>A blogging platform with CRUD functionality, allowing users to write, edit, and share blog posts.
+                Developed using a modern web framework.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="hidden">
+        <h2>Contact Me</h2><br>
+        <p>Feel free to reach out for collaborations, project discussions, or just to connect!</p>
+        <div class="contact-info">
+            <ul class="contact-links">
+                <li><i class="fas fa-envelope"></i> Email: <a href="mailto:jeevithadivakar2020@gmail.com">  jeevithadivakar2020@gmail.com</a></li>
+                <li><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/jeevitha-divakar-762160258/"
+                        target="_blank">linkedin.com/in/JeevithaDivakar</a></li>
+                <li><i class="fab fa-github"></i> GitHub: <a href="https://github.com/moonlight2524" target="_blank">github.com/moonlight2524</a></li>
+            </ul>
+        </div>
+        <div class="contact-form">
+            <h3>Write to Me</h3>
+            <form action="https://formspree.io/f/xovjoroj" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="_replyto" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
